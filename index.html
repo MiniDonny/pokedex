@@ -1,0 +1,102 @@
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD-->
+    <head>
+        <!--META-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--ICONS-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--LINK CSS-->
+        <link rel="stylesheet" href="./src/styles/styles.css">
+        <!--TITLE-->
+        <title>Pokedex</title>
+    </head>
+
+    <!--BODY-->
+    <body>
+        <!--HEADER-->
+        <header>
+            <!--LOGO-->
+            <div class="container_all_header">
+                <!--LOGO BURGER-->
+                <img class="logo" src="./src/img/logo.png" alt="Pokedex's Logo">
+                <!--FORM-->
+                <form class="container_search">
+                    <div class="container_input_search">
+                        <input class="input_search" id="input_search" type="search" placeholder="Search Your Pokemon">
+                    </div>
+                </form>
+                <!--FILTERS-->
+                <div class="container_all_filter">
+                    <button class="button_filter hidden" id="button_filter"><i class='bx bx-filter'></i></button>
+                    <div class="container_filters" id="container_filters">
+                        <li class="nav_item"><button class="btn btn_header" id="see_all">See Everything</button></li>
+                        <li class="nav_item"><button class="btn btn_header normal" id="normal">Normal</button></li>
+                        <li class="nav_item"><button class="btn btn_header fire" id="fire">Fire</button></li>
+                        <li class="nav_item"><button class="btn btn_header water" id="water">Water</button></li>
+                        <li class="nav_item"><button class="btn btn_header grass" id="grass">Grass</button></li>
+                        <li class="nav_item"><button class="btn btn_header electric" id="electric">Electric</button></li>
+                        <li class="nav_item"><button class="btn btn_header ice" id="Ice">Ice</button></li>
+                        <li class="nav_item"><button class="btn btn_header fighting" id="fighting">Fighting</button></li>
+                        <li class="nav_item"><button class="btn btn_header poison" id="poison">Poison</button></li>
+                        <li class="nav_item"><button class="btn btn_header ground" id="ground">Ground</button></li>
+                        <li class="nav_item"><button class="btn btn_header flying" id="flying">Flying</button></li>
+                        <li class="nav_item"><button class="btn btn_header psychic" id="psychic">Psychic</button></li>
+                        <li class="nav_item"><button class="btn btn_header bug" id="bug">Bug</button></li>
+                        <li class="nav_item"><button class="btn btn_header rock" id="rock">Rock</button></li>
+                        <li class="nav_item"><button class="btn btn_header ghost" id="ghost">Ghost</button></li>
+                        <li class="nav_item"><button class="btn btn_header dark" id="dark">Dark</button></li>
+                        <li class="nav_item"><button class="btn btn_header dragon" id="dragon">Dragon</button></li>
+                        <li class="nav_item"><button class="btn btn_header steel" id="steel">Steel</button></li>
+                        <li class="nav_item"><button class="btn btn_header fairy" id="fairy">Fairy</button></li>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--MAIN-->
+        <main>
+            <div id="all">
+                <div class="all_pokemons" id="list_pokemons">
+                    <!--<div class="pokemon">
+
+                        <p class="pokemon_id_back">#025</p>
+
+                        <div class="pokemon_image">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="">
+                        </div>
+
+                        <div class="pokemon_info">
+                            <div class="name_container">
+                                <p class="pokemon_id">#025</p>
+                                <h2 class="pokemon_name">Pikachu</h2>
+                            </div>
+                            <div class="types_pokemon">
+                                <p class="type electric">Electric</p>
+                                <p class="type fighting">fighting</p>
+                            </div>
+                        </div>
+
+                        <div class="pokemon_stats">
+                            <p class="stat">4m</p>
+                            <p class="stat">60kg</p>
+                        </div>
+
+                    </div>-->
+                    
+                </div>
+
+
+            </div>
+        </main>
+
+        <!--FOOTER-->
+        <footer>
+
+        </footer>
+
+        <!--LINK JS-->
+        <script src="./src/script/main.mjs"></script>
+    </body>
+</html>
